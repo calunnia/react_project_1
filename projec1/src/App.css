@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  padding-top: 16px;
+
+}
+
+body{
+  background-color: green;
+
+}
+section{
+  background-color: honeydew;
+  width: 50%;
+  margin:auto
+}
+.list{
+  padding: 10px;
+}
+button{
+  margin-bottom: 10px;
+}
+.members{
+  border: 1px solid green;
+  margin-bottom: 5px;
+}
+img{
+  width: 10%;
+}
