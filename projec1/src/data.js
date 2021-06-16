@@ -1,44 +1,53 @@
-export default[
+  const Data =[
 {
         id:1,
         name:'Marin Szilagyi',
-        age:8,
+        DOB:'2013-05-22',
+        city: 'London',
+        status:'active',
         image:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/emoji-wink-small-smile-ali-lynne.jpg'
     },
     {
         id:2,
+        status:'active',
         name:'Viktoria Szilagyi',
-        age:10,
+        DOB:'2011-09-12',
         image:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/emoji-wink-small-smile-ali-lynne.jpg'
     },
     {
         id:3,
         name:'Otto Szilagyi',
-        age:50,
+        status:'active',
+        DOB:'1970-06-10',
         image:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/emoji-wink-small-smile-ali-lynne.jpg'
     },
     {
         id:4,
         name:'Erika Szilagyi',
-        age:34,
+        DOB:'1986-09-27',
         image:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/emoji-wink-small-smile-ali-lynne.jpg'
     },
     {
         id:5,
         name:'Zanzibar Szilagyi',
-        age:53,
+        DOB:'1967-09-18',
+        status:'deleted - 2021.05.31 Erika',
         image:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/emoji-wink-small-smile-ali-lynne.jpg'
     },
     {
         id:6,
         name:'Kristof ',
-        age:5,
+        DOB:'2015-10-22',
+        status:'active',
         image:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/emoji-wink-small-smile-ali-lynne.jpg'
     },
     {
         id:7,
         name:'Flora ',
-        age:4,
+        DOB:'2017-09-10',
+        status:'active',
         image:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/emoji-wink-small-smile-ali-lynne.jpg'
     }
 ]
+
+export default Data
